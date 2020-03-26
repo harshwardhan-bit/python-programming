@@ -1,0 +1,5 @@
+b=open("forwrite.txt","a")
+b.write("heyyy how are you")
+b.close()
+b=open("forwrite.txt","r")
+print(b.read())
